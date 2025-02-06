@@ -1,11 +1,11 @@
 # 📄 **ChatGroq Document Q&A Chatbot**  
 
-An **AI-powered chatbot** that allows users to upload **PDF** or **TXT** documents and ask questions based on their content. The chatbot uses **Retrieval-Augmented Generation (RAG)** powered by **ChatGroq’s Mixtral-8x7B model**, **ChromaDB** for vector search, and **Streamlit** for an interactive UI.
+An **AI-powered chatbot** that allows users to upload **PDF** documents and ask questions based on their content. The chatbot uses **Retrieval-Augmented Generation (RAG)** powered by **ChatGroq’s Deepseek model**, **ChromaDB** for vector search, and **Streamlit** for an interactive UI.
 
 ---
 
 ## 🚀 **Features**  
-- 📤 **Upload Documents:** Supports PDF and TXT files.  
+- 📤 **Upload Documents:** Supports PDF files.  
 - 🔍 **Context-Aware Q&A:** Retrieves the most relevant document chunks for accurate answers.  
 - 🤖 **Powered by ChatGroq:** Generates human-like, context-driven responses using advanced LLMs.  
 - 📝 **Chat History:** Maintains an ongoing conversation with users.  

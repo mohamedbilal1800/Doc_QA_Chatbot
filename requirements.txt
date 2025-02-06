@@ -1,0 +1,14 @@
+streamlit
+streamlit-chat
+langchain
+langchain_groq
+langchain_chroma
+langchain-community
+langchain_huggingface
+groq
+chromadb
+sentence-transformers
+pypdf
+unstructured
+python-dotenv
+tiktoken

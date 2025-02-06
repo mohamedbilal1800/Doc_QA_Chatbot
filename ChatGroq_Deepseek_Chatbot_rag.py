@@ -33,7 +33,8 @@ def get_vector_store():
 
 @st.cache_resource
 def get_chat_model():
-    groq_api_key = os.getenv("GROQ_API_KEY")
+    # groq_api_key = os.getenv("GROQ_API_KEY")
+    groq_api_key = st.secrets["GROQ_API_KEY"]
     if not groq_api_key:
         raise ValueError("GROQ_API_KEY is missing. Please set it in the .env file.")
     return ChatGroq(api_key=groq_api_key, model_name="deepseek-r1-distill-llama-70b")

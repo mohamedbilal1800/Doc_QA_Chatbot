@@ -12,3 +12,4 @@ pypdf
 unstructured
 python-dotenv
 tiktoken
+sqlite3>=3.35.0
